@@ -1,17 +1,19 @@
+
 import random
 
 computer_choice = random.choice(['rock', 'paper', 'scissors'])
-user_choice = input('Do you want rock, paper, or scissors?')
+player_choice = input("Do you want - rock, paper, or scissors?\n")
 
-print('Commputer choice:', computer_choice)
+print('Computer choice:', computer_choice)
+print('Player choice:', player_choice)
 
-if computer_choice == user_choice:
+if computer_choice == player_choice:
     print('TIE')
-elif user_choice == 'rock' and computer_choice == 'scissors':
+elif player_choice == 'rock' and computer_choice == 'scissors':
     print('WIN')
-elif user_choice == 'paper' and computer_choice == 'rock':
+elif player_choice == 'paper' and computer_choice == 'rock':
     print('WIN')
-elif user_choice == 'scissors' and computer_choice == 'paper':
+elif player_choice == 'scissors' and computer_choice == 'paper':
     print('WIN')
 else:
-    print('You lose, computer wins :)')
+    print('You lose :( Computer wins :D')

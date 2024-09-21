@@ -1,14 +1,14 @@
 contacts = {
-    "number":4,
+    "number": 5,
     "students":
         [
-            {"name":"Sarah Holderness", "email":"sarah@example.com"},
-            {"name":"Harry Potter", "email":"harry@example.com"},
-            {"name":"Hermione Granger", "email":"hermione@example.com"},
-            {"name":"Ron Weasley", "email":"ron@example.com"}
+            {"name":"Brian LeMaster", "email":"brian@example.com"},
+            {"name":"George Jefferson", "email":"george@example.com"},
+            {"name":"Oscar Wilde", "email":"oscar@example.com"},
+            {"name":"Beatrice McGee", "email":"bea@example.com"}
         ]
 }
 
 print('Student emails:')
 for student in contacts['students']:
-    print(student['email'])# print(p['name'])
+    print(student['name'], student['email'], sep=" >> ")
