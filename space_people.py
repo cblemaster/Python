@@ -7,5 +7,5 @@ json  = people.json()
 print(json)
 
 print('The people currently in space are:')
-for p in json['people']:
-    print(p['name'])
+for person in json['people']:
+    print(person['name'])

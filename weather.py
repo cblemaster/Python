@@ -15,7 +15,7 @@ def get_current_description(json):
     return desc
 
 def main():
-    city = 'Orlando'
+    city = 'Cincinnati'
     weather_json = get_weather_json(city)
     temp = get_current_temperature(weather_json)
     description = get_current_description(weather_json)
